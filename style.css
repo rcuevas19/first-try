@@ -1,0 +1,152 @@
+/* universal styles */
+
+body {
+  font-family: 'Vollkorn', serif;
+  font-size: 14px;
+}
+
+/* header */
+
+header h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 150px;
+  font-weight: bold;
+  font-family: 'Rochester', cursive;
+  color: #2B616D;
+}
+
+.header-image {
+  background-image: url("./images/background1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* nav bar */
+
+nav {
+  display: block;
+  background-color: #B2DBD5;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  list-style: none;
+  font-size: 24px;
+}
+
+a {
+  color: #2B616D;
+}
+
+/* map customization(is that how you spell that?) */
+
+.map-container {
+  align-items: center;
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  border: 20px solid #B2473E;
+  border-style: double;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* gallery */
+
+h2 {
+  font-size: 70px;
+  font-family: 'Dancing Script', cursive;
+  color: #B2473E;
+}
+ p{
+   font-size: 24px;
+ }
+
+/* about us */
+
+.profiles h2 {
+  align-items: center;
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.profiles img {
+  width: 300px;
+  height: 370px;
+  margin: 20px;
+  padding: 0;
+}
+
+/* contact page */
+
+/* social media icons */
+.social-icons {
+  text-align: left;
+}
+
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.social-icons li a {
+  border-bottom: none;
+}
+
+.social-icons li img {
+  justify-content: space-between;
+  width: 75px;
+  height: 75px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Vollkorn', serif;
+}
+
+/* bawkbox custom color */
+.btn-widgets-primary {
+  background-color: #2B616D !important;
+}
+.check-container input:checked ~ .checkmark {
+  background-color: #2B616D !important;
+}
+
+.chatbox .chatbox-message-area .chatbox-message-footer
+.chatbox-message-footer-buttons .chatbox-send {
+  background-color: #2B616D !important;
+}
+
+.chatbox-primary {
+  background-color: #2B616D !important;
+}
+
+/* bawkbox position*/
+
+.bawkbox {
+  justify-content: center;
+}
+
+.bawkbox img {
+  width: 50px;
+  height: 50px;
+}
